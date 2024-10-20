@@ -1,0 +1,52 @@
+body{
+    background-color: bisque;
+    background-image: url(images/background.jpg);
+    height: 100vh;    
+}
+.tickets{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#countMonitor{
+    font-size: 50px;
+    color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    text-align: center; 
+}
+#button-inc{
+    background-color: #4CAF50;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    cursor: pointer;
+    border: 5px solid;
+}
+#save-btn ,#reset-btn{
+    display: block;
+    margin: auto;
+    padding: 7px;
+    cursor: pointer;
+    border: 3px solid;
+    background-color: #af864c;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 200px;
+}
+.prev-entries{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: 5px solid;
+    border-radius: 20px;
+}
